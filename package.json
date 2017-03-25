@@ -4,11 +4,22 @@
   "description": "Wave: A social network",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rp282/wave_1.1.git"
+  },
+  "dependencies":{
+  	"express":"*",
+  	"mongoose":"*",
+  	"bcryptjs":"*",
+  	"cors":"*",
+  	"jsonwebtoken":"*",
+    "body-parser":"*",
+    "passport":"*",
+    "passport-jwt":"*"
   },
   "author": "Ryan Pun & Norman Kuang",
   "license": "ISC",
